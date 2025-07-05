@@ -103,6 +103,7 @@ int main(void) {
 	}
 }
 
+// IS21EF08G-JCLI-TR  -->  eMMC 8GB, 153 Ball FBGA, 3.3V, RoHS, T&R 
 
 
 /*!<

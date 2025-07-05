@@ -366,17 +366,17 @@ typedef struct {
 //} I2C_t;
 
 /*!< SPI */
-//typedef struct {
-//	_IO	uint32_t	CR1;			/* control 1                         0x00 */
-//	_IO	uint32_t	CR2;			/* control 2                         0x04 */
-//	_IO	uint32_t	SR;				/* status                            0x08 */
-//	_IO	uint32_t	DR;				/* data                              0x0C */
-//	_IO	uint32_t	CRCPR;			/* CRC polynomial                    0x10 */
-//	_IO	uint32_t	RXCRCR;			/* RX CRC                            0x14 */
-//	_IO	uint32_t	TXCRCR;			/* TX CRC                            0x18 */
-//	_IO	uint32_t	I2SCFGR;		/* I2S configuration                 0x1C */
-//	_IO	uint32_t	I2SPR;			/* I2S prescaler                     0x20 */
-//} SPI_t;
+typedef struct {
+	_IO	uint32_t	CR1;			/* control 1                         0x00 */
+	_IO	uint32_t	CR2;			/* control 2                         0x04 */
+	_IO	uint32_t	SR;				/* status                            0x08 */
+	_IO	uint32_t	DR;				/* data                              0x0C */
+	_IO	uint32_t	CRCPR;			/* CRC polynomial                    0x10 */
+	_IO	uint32_t	RXCRCR;			/* RX CRC                            0x14 */
+	_IO	uint32_t	TXCRCR;			/* TX CRC                            0x18 */
+	_IO	uint32_t	I2SCFGR;		/* I2S configuration                 0x1C */
+	_IO	uint32_t	I2SPR;			/* I2S prescaler                     0x20 */
+} SPI_t;
 
 /*!< I2S TODO */
 

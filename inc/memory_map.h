@@ -287,7 +287,16 @@
 
 /*!< I2C TODO */
 
-/*!< SPI TODO */
+/*!< SPI */
+#define SPI_CR1			0x00U
+#define SPI_CR2			0x04U
+#define SPI_SR			0x08U
+#define SPI_DR			0x0CU
+#define SPI_CRCPR		0x10U
+#define SPI_RXCRCR		0x14U
+#define SPI_TXCRCR		0x18U
+#define SPI_I2SCFGR		0x1CU
+#define SPI_I2SPR		0x20U
 
 /*!< I2S TODO */
 
